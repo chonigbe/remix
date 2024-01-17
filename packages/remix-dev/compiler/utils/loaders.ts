@@ -33,6 +33,7 @@ export const loaders: { [ext: string]: esbuild.Loader } = {
   ".otf": "file",
   ".png": "file",
   ".psd": "file",
+  ".riv": "file",
   ".sql": "text",
   ".svg": "file",
   ".ts": "ts",
